@@ -5,5 +5,8 @@ module MuturiMultiplier
   def self.multiply(a,b)
   	a*b
   end
+  def self.string(a,b)
+  	a.length*b.length
+  end
 end
 
