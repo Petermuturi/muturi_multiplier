@@ -8,5 +8,8 @@ module MuturiMultiplier
   def self.string(a,b)
   	a.length*b.length
   end
+  def self.square(a,b)
+  	a*a*b*b
+  end
 end
 
