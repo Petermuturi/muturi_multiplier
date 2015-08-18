@@ -11,5 +11,8 @@ module MuturiMultiplier
   def self.square(a,b)
   	a*a*b*b
   end
+  def self.cube(a,b)
+  	a*a*a*b*b*b 
+  end
 end
 
